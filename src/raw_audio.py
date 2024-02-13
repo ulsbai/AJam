@@ -1,5 +1,5 @@
 import numpy
-import sounddevice
+import sounddevice as sd
 
 DEFAULT_SAMPLE_RATE = 44100
 
