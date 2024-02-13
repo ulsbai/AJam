@@ -14,6 +14,6 @@ def play_freq(freq, duration, sample_rate=DEFAULT_SAMPLE_RATE):
 if __name__=='__main__':
   #test
   while True:
-    freq = input('Freq: ')
-    duration = input('Duration: ')
+    freq = int(input('Freq: '))
+    duration = int(input('Duration: '))
     play_freq(freq, duration)
